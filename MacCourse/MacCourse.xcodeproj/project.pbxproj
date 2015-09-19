@@ -32,7 +32,6 @@
 		ECCFECF31BAAB34900E19EBF /* SAPPrintTypesSize.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = SAPPrintTypesSize.c; path = SAPMacCourse/sources/SAPL01DataTypes/SAPPrintTypesSize.c; sourceTree = SOURCE_ROOT; };
 		ECCFECF41BAAB34900E19EBF /* SAPPrintTypesSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SAPPrintTypesSize.h; path = SAPMacCourse/sources/SAPL01DataTypes/SAPPrintTypesSize.h; sourceTree = SOURCE_ROOT; };
 		ECCFECF71BAAB79100E19EBF /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		ECCFECF91BAAB79F00E19EBF /* MyFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyFile.h; sourceTree = "<group>"; };
 		ECCFECFA1BAAC17400E19EBF /* SAPMamaOrPapa.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SAPMamaOrPapa.c; sourceTree = "<group>"; };
 		ECCFECFB1BAAC17400E19EBF /* SAPMamaOrPapa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAPMamaOrPapa.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,7 +85,6 @@
 		ECCFECED1BAAADEB00E19EBF /* SAPL01DataTypes */ = {
 			isa = PBXGroup;
 			children = (
-				ECCFECF91BAAB79F00E19EBF /* MyFile.h */,
 				ECCFECF71BAAB79100E19EBF /* main.c */,
 				ECCFECF31BAAB34900E19EBF /* SAPPrintTypesSize.c */,
 				ECCFECF41BAAB34900E19EBF /* SAPPrintTypesSize.h */,
@@ -132,7 +130,7 @@
 		EC96D8641BA83CD1008C8F6F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Yosemite Retail";
 				TargetAttributes = {
 					EC96D86B1BA83CD1008C8F6F = {
@@ -192,6 +190,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
