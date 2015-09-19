@@ -2,7 +2,7 @@
 //  main.c
 //  MacCourse
 //
-//  Created by Yosemite Retail on 9/15/15.
+//  Created by Yosemite Retail on 9/15/15
 //  Copyright (c) 2015 Yosemite Retail. All rights reserved.
 //
 
