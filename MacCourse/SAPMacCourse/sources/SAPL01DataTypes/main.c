@@ -16,15 +16,9 @@ int main(int argc, const char * argv[]) {
 
     //testing
     SAPTestPrintTypesSize();
-    SAPTestDefineMamaOrPapa();
+    SAPTest1DefineMamaOrPapa();
+    SAPTest2DefineMamaOrPapa();
     
-    //loop
-    int iterationAmount = 1000;
-    for (int i = 0; i < iterationAmount; i++) {
-        SAPDefineMamaOrPapa(i);
-    }
-    
-    return 0;
 }
 
 
